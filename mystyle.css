@@ -1,0 +1,25 @@
+    .main_head{
+    color: white;
+  }
+
+
+  .abc{
+     color: white;
+  background-color: #3b588e;
+  }
+  a{
+text-decoration: none;
+color: white;
+
+}
+a:hover{
+  color: white;
+ 
+}
+li{
+  padding: 5px;
+}
+li a:hover{
+  color: white;
+  background-color: #203254;
+}
