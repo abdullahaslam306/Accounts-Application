@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Account App</title>
+	<title>Account Application</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
@@ -18,7 +18,7 @@
 
 	
 </head>
-<body style="background-color: green; " dir="rtl" >
+<body style="background-color: white; " dir="rtl" >
 	
 	<div class="limiter" style="background-color: green;">
 		<div class="container-login100" style="background-image: url('bg.jpg')">
@@ -28,12 +28,12 @@
 
 					<span class="login100-form-title p-b-32">
 						
-						<center><b>تسجيل الدخول</b></center>
+						<center><b>LOG IN</b></center>
 					</span>
 
 						<br>
 					<span class="txt1 p-b-11">
-				<b>	اسم المستخدم</b>
+				<b>User Name</b>
 					</span>
 					
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "اسم المستخدم مطلوب">
@@ -43,7 +43,7 @@
 					
 					<span class="txt1 p-b-11">
 						<b>
-							كلمة السر
+							Password
 						</b>
 					</span>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "كلمة المرور مطلوبة">
@@ -73,7 +73,7 @@
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" type="submit" name="login">
-						تسجيل الدخول
+						Login
 						</button>
 					</div>
 					<?php session_start(); 
