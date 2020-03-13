@@ -137,4 +137,3 @@ $("#printerr").click(function(){
 
 
 </script>
-<?php include("footer.php"); ?>
